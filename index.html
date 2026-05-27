@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRIMSON SURVIVAL</title>
+    <style>
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at 70% 18%, rgba(126, 18, 35, 0.38), transparent 18rem),
+          linear-gradient(180deg, #05050a 0%, #110711 48%, #050308 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+      #game {
+        box-shadow: 0 0 0 1px rgba(255, 94, 113, 0.22), 0 26px 90px rgba(120, 0, 20, 0.42);
+      }
+      canvas {
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

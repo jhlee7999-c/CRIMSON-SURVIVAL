@@ -1,0 +1,32 @@
+{
+  "name": "crimson-survival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "assets:remaster": "node scripts/generate-remastered-assets.mjs",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhlee7999-c/CRIMSON-SURVIVAL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jhlee7999-c/CRIMSON-SURVIVAL/issues"
+  },
+  "homepage": "https://github.com/jhlee7999-c/CRIMSON-SURVIVAL#readme",
+  "devDependencies": {
+    "sharp": "^0.34.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  },
+  "dependencies": {
+    "phaser": "^4.1.0"
+  }
+}
